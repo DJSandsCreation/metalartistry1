@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>MJ Metal Artistry</title>
+</head>
+<body>
+<!-- 1.(HTML) a small project here like a presentation Web site, not really like a mainstream Web site but something that maybe you would do at some kind of conference/event as a presentation and PowerPoint doesnt quite cut it, something custom, its very simplified but I will add graphics to it later, as I go .. I'll be using a bunch of stuff that I've learned through the animations etc, like variables, a little bit of a key frame animation transition stuff -->
+
+<!-- Page 1 (Intro) -->
+
+<!-- 2.(HTML)  the intro and it's going to be a section, with I.D of page dash one and then each, one is gonna have a class, page, then an H1 saying Welcome to my presentation and then under that a paragraph and lorem 40 sounds about right, underneath the paragraph gonna have a div, in this div is gonna have whatever buttons there are, on the first page just have one button because it's just a next.
+    <section id="page-1" class="page">
+    <h1>Welcome To My Presentation</h1>
+    <p>Lorem ipsum . .. . .   amet consectetur .</p>
+-->
+  <section id="page-1" class="page">
+    <h1>Welcome To MJ Metal Artistry</h1>
+    <p>My work is inspired by the creation that surrounds us all: 
+      the world, the univers, life, death, nature, man made,
+    it's all around us. My ever present inspiration .. .</p>
+<!-- 3. (HTML) Now on the first page just going to have one button because it's just a next, there's no previous words we'reon the first page so  do an A tag, give it a class of btn cause gonna style that and then it is going to go to the I.D of page dash 2, then inside here let's say next page now we are gonna be using font Awesome, grab the link, use these icons, put this right above our link to our style sheet, after the text next page and put i tag with a class of F A S, do a class of F A Dash arrow dash circle dash down, gives us a down facing arrow.
+      <div>
+      <a href="#page-2" class="btn">
+        Next Page <i class="fas fa-arrow-circle-down"></i>
+      </a>
+    </div>
+so for the next page copy this whole section, go right under, this is gonna be page two -->
+    <div>
+      <a href="#page-2" class="btn">
+        Next Page <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <p>A DJSandsCreation </p>
+    </div>
+  </section>
+
+  <!-- Page 2 -->
+
+   <!-- 4. (HTML) And this is gonna be page two, ID of page two, for the title or the H1 just gonna say page two, gonna leave the same text, it'll be different content later as I wannna work on the structure first
+    <section id="page-2" class="page">
+    <h1>Page 2</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam et eaque quo illo. Aliquid nostrum commodi blanditiis. Laudantium quam error doloribus iure exercitationem maxime odio. Qui quam porro numquam, aliquam aliquid vitae officia unde iusto, voluptate optio, quis voluptates deleniti.</p>
+    <div>
+
+ok, now the buttons,copy the entire a tag here and paste it under, one is gonna go to page one and there says previous or prev page, for the icon  f a circle up and then other gonna go to page three circled down and going to go to the next page.
+      <div>
+      <a href="#page-1" class="btn btn-dark">
+        Prev Page <i class="fas fa-arrow-circle-up"></i>
+      </a>
+      <a href="#page-3" class="btn">
+        Next Page <i class="fas fa-arrow-circle-down"></i>
+      </a>
+    </div>
+
+    so copy all for page 3
+ -->
+  <section id="page-2" class="page">
+    <h1>MAN by MJ Metal Artistry</h1>
+    <p>This whopping 2.3 metre beastie is on it's way to its new home this week. I'm really happy with how this has come out. </p>
+    <div>
+      <a href="#page-1" class="btn btn-dark">
+        Prev Page <i class="fas fa-arrow-circle-up"></i>
+      </a>
+      <a href="#page-3" class="btn">
+        Next Page <i class="fas fa-arrow-circle-down"></i>
+      </a>
+
+      <p>A DJSandsCreation </p>
+    </div>
+  </section>
+
+  <!-- Page 3 -->
+
+  <!-- 5.(HTML)  Copy that section paste that in, going to be page three, as for the previous <a href="#page-1" class="btn btn-dark"> it's going to go to page 2 <a href="#page-2" class="btn btn-dark"> and next will become  <a href="#page-4" class="btn">
+    Notice all previosu btn are set to btn dark  ,.. 
+go to set up  page 4.-->
+  <section id="page-3" class="page">
+    <h1>Predator by MJ Metal Artistry</h1>
+    <p>Inspired by predators, hunters it all shapes and forms. The look before the attack, the anticipation , those last few seconds  . . . .</p>
+    <div>
+      <a href="#page-2" class="btn btn-dark">
+        Prev Page <i class="fas fa-arrow-circle-up"></i>
+      </a>
+      <a href="#page-4" class="btn">
+        Next Page <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <p>A DJSandsCreation </p>
+    </div>
+  </section>
+
+  <!-- Page 4 -->
+
+  <!-- 6.  (HTML) one more page, paste it for page 4 , ID of page 4 and then the previous is gonna be page 3, not going to have a next so we can we can get rid of the  whole tag, won't do the button dark here just because it's the only button.-->
+  <section id="page-4" class="page">
+    <h1> My Media</h1>
+    <p>All my sculptures contain or are made of entirely from the last Sheffield stainless steel ever manufactured in the UK. This includes the Blue Peter Ship that now resides in the public garden at  City. </p>
+    <div>
+      <a href="#page-3" class="btn">
+        Prev Page <i class="fas fa-arrow-circle-up"></i>
+      </a>
+      <p>A DJSandsCreation </p>
+    </div>
+  </section>
+<!-- JQUERY AREA -->
+<!-- so decided to add the Jquery, added the JQuery CDN minified version from google, so onlycuz theree is so little JQueryI'm sticking it in a script tag here but I will be adding something else so I will add one later,.-->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script>
+    // Smooth Scrolling snippet
+
+    //So now when I click the next page it scrolls down all right cuz we told it for anything with class button on click gonna run function and basically gonna check the hash which is the ID has page 3 and gonna scroll to that area using the animate, can chage the speed 400 goes faster, 1400 goes much faster, think 800 is pretty good
+
+    $('.btn').on('click', function(event) {
+        if (this.hash !== '') {
+          event.preventDefault();
+          const hash = this.hash;
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top
+            },
+            800
+          );
+        }
+      });
+  </script>
+</body>
+</html>
